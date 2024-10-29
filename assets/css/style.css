@@ -1,0 +1,113 @@
+/* --------------------------------------------- Widget: About Me ------------------------------------- */
+.aztheme-about-me .about-widget {
+	text-align: center;
+}
+.aztheme-about-me .about-img {
+	height: 255px;
+	background-size: cover;
+	border-radius: 100%;
+	width: 255px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto 30px;
+	max-width: 100%;
+}
+/* --------------------------------------------- Widget: Social Media Links ------------------------------------- */
+.widget .social-media-links a {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	width: 40px;
+	border: 1px solid var(--border-color);
+	text-align: center;
+	margin-bottom: 5px;
+	border-radius: 100%;
+	font-size: 13px;
+}
+.widget .social-media-links a:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+    border-color: transparent;
+}
+/* --------------------------------------------- Widget: Latest Posts ------------------------------------- */
+.aztheme-latest-posts-widget ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.aztheme-latest-posts-widget .post {
+	display: flex;
+	margin: 0;
+}
+.aztheme-latest-posts-widget .post .entry-left {
+	padding-right: 15px;
+	width: calc(100% - 100px);
+}
+.aztheme-latest-posts-widget .post .entry-meta {
+	text-align: left;
+	display: inline-block;
+}
+.aztheme-latest-posts-widget .post .entry-title {
+	text-align: left;
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 0;
+}
+.aztheme-latest-posts-widget.widget ul li {
+	display: block;
+	padding: 20px 0;
+}
+.aztheme-latest-posts-widget ul li:first-child {
+	padding-top: 20px;
+}
+.aztheme-latest-posts-widget .post .entry-image {
+	width: 100px;
+	display: block;
+	margin: 0;
+	position: relative;
+}
+.aztheme-latest-posts-widget .post .entry-image span {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background: var(--primary-color);
+	border-radius: 100%;
+	color: #fff;
+	line-height: 24px;
+	top: -10px;
+	left: -10px;
+	font-size: 13px;
+}
+/* --------------------------------------------- Widget: Categories Images ------------------------------------- */
+.aztheme-categories-images.widget ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+.aztheme-categories-images.widget ul li {
+	margin-bottom: 20px;
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: #ddd;
+}
+.aztheme-categories-images.widget ul li a {
+	background: rgba(255,255,255,0.9);
+	padding: 10px;
+	min-width: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 2px;
+	font-family: var(--heading-fonts);
+	color: var(--primary-color);
+}
+.aztheme-categories-images.widget ul li a:hover {
+	background: var(--accent-color);
+	color: var(--primary-color);
+}
